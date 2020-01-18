@@ -16,3 +16,14 @@ padding: 0;
   .nav-item{
       margin-right: 12px;
   }
+
+  .head{
+      background-image: url('assets/background.jpg');
+      height: 93vh;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      filter: brightness(0.3);
+  }

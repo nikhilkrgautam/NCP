@@ -1,0 +1,39 @@
+
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+}
+
+
+.panel-title {
+    font-size: 14px;
+}
+
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+
+
+body {
+background-color: #00104F;
+}
+
+.demo {
+padding-top: 60px;
+padding-bottom: 110px;
+}
+
+.panel-heading{
+    color: #00104F;
+}
+
+
+
