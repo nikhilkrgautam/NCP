@@ -67,21 +67,21 @@
                 <p><b>On which of the following social media did you find the images?</b></p>
                 <div class="apna-radio">
                     <div>
-                        <input type="checkbox" id="rad1" class="radi" value="twit">
+                        <input type="checkbox" id="rad1" class="radi" value="twitter">
                         <label for="rad1">Twitter</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="rad2" class="radi" value="face">
+                        <input type="checkbox" id="rad2" class="radi" value="facebook">
                         <label for="rad2">Facebook</label>
                     </div>
 
                     <div>
-                        <input type="checkbox" id="rad3" class="radi" value="ins">
+                        <input type="checkbox" id="rad3" class="radi" value="instagram">
                         <label for="rad3">Instagram</label>
                     </div>
 
                     <div>
-                        <input type="checkbox" id="rad4" class="radi" value="redd">
+                        <input type="checkbox" id="rad4" class="radi" value="reddit">
                         <label for="rad4">Reddit</label>
                     </div>
                 </div>
@@ -89,10 +89,26 @@
            
           
           </div>
-          <a href="solution.html"><button type="button" class="btn btn-primary apna-btn">Submit</button></a>
+          <a href="solution.html"><button type="button" onclick="submitIt()" class="btn btn-primary apna-btn">Submit</button></a>
         </div>
 
-
+        <script>
+            let rads = document.getElementsByClassName('radi');
+            console.log(rads);
+            
+            function submitIt() {
+                    let rads = document.getElementsByClassName('radi');
+                    for(var i = 0; i < rads.length; i++) {
+                        if(rads[i].checked) {
+                            localStorage.setItem(rads[i].value, "checked");
+                        }
+                        else {
+                            localStorage.removeItem(rads[i].value);
+                        }
+                    }
+                
+            }
+        </script>
 
           
         </body>

@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cyber Ally</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
@@ -41,19 +44,40 @@
           <img id="chi" src="assets/box2.png">
           <img id="cho" src="assets/box3.png">
           <img id="cha" src="assets/box4.png">
-          <a href="page1.html"><p id="clk">here</p></a>
-          <a href="www.indianhelpline.com"><p id="clk1">www.indianhelpline.com</p></a>
+          <!-- <a href="page1.html"><p id="clk">here</p></a> -->
+          <button type="button" class="btn" id="clk" data-toggle="modal" data-target="#myModal">here</button>
+          <a href="https://indianhelpline.com"><p id="clk1">www.indianhelpline.com</p></a>
 
-
+         
           
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title" style="color: red;">*A note to the victim:</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="modal-body">
+                    We know understand what you must be going through. We assure you that filling this form will surely not increase your burden,
+                     if not decrease it. The intention of this form is to help the victims of cyber crime.<br>
+                      We respect privacy and without a shadow of doubt, assure that your information will be kept safe with us.
+                       Please fill in the details honestly, so that we can help you to the fullest.
+                </div>
+          
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  <a href="page1.html"><button type="button" class="btn btn-primary">I Agree</button></a>
+                </div>
+          
+              </div>
+            </div>
+          </div>
 
     </body>
 </html>

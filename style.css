@@ -81,10 +81,19 @@ padding: 0;
       margin: 0 20px 0 auto;
       font-size: 1.5em !important;
   }
+
+ 
+
+/* #billi a {
+    margin: 0 20px 0 auto;
+    display: block;
+    
+} */
   
   .box a{
     margin: 0 20px 0 auto;
     display: block;
+    /* float: right; */
 }
 
 .apna-slt{
@@ -135,8 +144,8 @@ padding: 0;
     font-weight: 300;
     color: yellow;
     position: absolute;
-    top: 52.5%;
-    left: 67%;
+    top: 51.8%;
+    left: 66.2%;
 }
 
 #cha{
@@ -158,5 +167,16 @@ padding: 0;
     position: absolute;
     top: 85.5%;
     left: 43.5%;
+}
+
+ul{
+    list-style-type: square;
+}
+
+#billi {
+    background-color: lightyellow;
+    margin: 30px 30px;
+    padding: 40px;
+    border-radius: 20px;
 }
 
