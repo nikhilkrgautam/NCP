@@ -52,33 +52,45 @@
 
           <div class="box">
             <div>
-                  <p><b>Please enter your name below:</b></p>
-                  <input type="text" id="name" class="apna-input" required>  
+                  <p><b>On whose behalf are you reporting?</b></p>
+                  <label for="inlineFormCustomSelect" style="display: none;">Preference</label>
+                  <select class="apna-slt" id="inlineFormCustomSelect">
+                    <option selected>Yourself</option>
+                    <option value="1">Relative</option>
+                    <option value="2">Friend</option>
+                    <option value="3">Others</option>
+                  </select>  
             </div>
             
             
             <div>
-                <p><b>Are you a major or a minor?</b></p>
+                <p><b>On which of the following social media did you find the images?</b></p>
                 <div class="apna-radio">
                     <div>
-                        <input type="radio" id="rad1" class="radi" value="major" name="age" checked>
-                        <label for="rad1">Major</label>
-                     </div>
+                        <input type="checkbox" id="rad1" class="radi" value="twit">
+                        <label for="rad1">Twitter</label>
+                    </div>
                     <div>
-                        <input type="radio" id="rad2" class="radi" value="minor" name="age">
-                        <label for="rad2">Minor</label>
+                        <input type="checkbox" id="rad2" class="radi" value="face">
+                        <label for="rad2">Facebook</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="rad3" class="radi" value="ins">
+                        <label for="rad3">Instagram</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="rad4" class="radi" value="redd">
+                        <label for="rad4">Reddit</label>
                     </div>
                 </div>
-            </div>
-          
-            <div>
-                <p><b>NOTE: </b>The above information is necessary because the laws in India for a 
-                    minor are different. You will find more information after you fill up the details.
-                </p>
-            </div>
-           <a href="page2.html"><button type="button" class="btn btn-primary apna-btn">Next</button></a> 
+
+           
           
           </div>
+          <a href="solution.html"><button type="button" class="btn btn-primary apna-btn">Submit</button></a>
+        </div>
 
 
 

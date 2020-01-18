@@ -27,3 +27,65 @@ padding: 0;
       background-attachment: fixed;
       filter: brightness(0.3);
   }
+
+  .box{
+      min-height: 650px;
+      margin: 50px auto;
+      width: 1100px;
+      background-color: lightyellow;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+
+  .box p{
+    margin-left: 60px;
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .apna-input{
+      width: 400px;
+      display: block;
+      margin: 40px 5px 5px 60px;
+      height: 30px;
+      font-size: 20px;
+  }
+
+  .apna-radio{
+    font-weight: 300;
+    font-size: 25px;
+    margin-left: 60px;
+  }
+
+  .apna-radio:nth-child(2){
+      padding-left: 30px;
+  }
+
+  .apna-radio label{
+      font-weight: normal;
+  }
+
+
+  .apna-btn{
+      width: 100px;
+      height: 50px;
+      display: block;
+      margin: 0 20px 0 auto;
+      font-size: 1.5em !important;
+  }
+  
+  .box a{
+    margin: 0 20px 0 auto;
+    display: block;
+}
+
+.apna-slt{
+    width: 200px;
+    display: block;
+    margin: 40px 5px 5px 60px;
+    font-size: 50px;
+    /* height: 70px;
+    line-height: 70px; */
+}
